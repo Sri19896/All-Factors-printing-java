@@ -1,0 +1,16 @@
+public class FactorPrinter {
+    public static void printFactors (int number){
+        if (number <1){
+            System.out.print( "Invalid Value");
+        }
+        else{
+            int x=1;
+            while(x<=number){
+                if(number%x==0){
+                    System.out.println(x);
+                }   x++;
+                
+            }
+        }
+    }
+}
